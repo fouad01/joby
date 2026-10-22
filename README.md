@@ -34,3 +34,9 @@ npm.cmd run start
 ```
 
 The service uses the `PORT` environment variable when the host provides one.
+
+## Application follow-ups
+
+Open **Applications** to add a company and role, update status, schedule a follow-up, and record contact history. Search by company or role and filter to due follow-ups. Drafts are editable and copied for manual sending. Joby does not send messages or background reminders.
+
+This feature stores records in this browser under `joby-applications-v1`, independently from the legacy server tracker. Use **Export backup** to download your records before clearing browser storage. These records are not included in Git commits or synchronized across devices.
